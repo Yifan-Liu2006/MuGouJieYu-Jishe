@@ -1,0 +1,119 @@
+{
+  "mapPoints": [
+    {
+      "name": "应县木塔",
+      "lng": 113.18,
+      "lat": 39.57,
+      "link": "/tower",
+      "description": "世界现存最高最古老纯木结构楼阁式建筑"
+    },
+    {
+      "name": "佛光寺",
+      "lng": 113.45,
+      "lat": 38.87,
+      "link": "#",
+      "disabled": true,
+      "description": "唐代建筑，暂未开放"
+    },
+    {
+      "name": "南禅寺",
+      "lng": 113.55,
+      "lat": 38.89,
+      "link": "#",
+      "disabled": true,
+      "description": "唐代建筑，暂未开放"
+    }
+  ],
+  "roseChart": {
+    "title": "古建筑分类统计",
+    "data": {
+      "唐代": 5,
+      "宋代": 8,
+      "辽代": 3,
+      "金代": 4,
+      "元代": 6,
+      "明代": 12,
+      "清代": 20
+    }
+  },
+  "barChart": {
+    "title": "古建筑朝代分布",
+    "data": {
+      "唐代": 5,
+      "宋代": 8,
+      "辽代": 3,
+      "金代": 4,
+      "元代": 6,
+      "明代": 12,
+      "清代": 20
+    }
+  },
+  "highlights": [
+    {
+      "title": "总高度",
+      "value": "67.31米",
+      "icon": "📏",
+      "description": "相当于20层楼高"
+    },
+    {
+      "title": "建造年代",
+      "value": "1056年",
+      "icon": "📅",
+      "description": "辽代清宁二年始建"
+    },
+    {
+      "title": "结构特点",
+      "value": "纯木结构",
+      "icon": "🪵",
+      "description": "无钉无铆，全靠榫卯"
+    },
+    {
+      "title": "斗拱种类",
+      "value": "54种",
+      "icon": "🏯",
+      "description": "共480朵斗拱"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1056年",
+      "event": "应县木塔始建",
+      "description": "辽代清宁二年，由田和尚奉敕募建"
+    },
+    {
+      "year": "1195年",
+      "event": "第一次大修",
+      "description": "金代明昌六年"
+    },
+    {
+      "year": "1320年",
+      "event": "第二次大修",
+      "description": "元代延祐七年"
+    },
+    {
+      "year": "1508年",
+      "event": "第三次大修",
+      "description": "明代正德三年"
+    },
+    {
+      "year": "1724年",
+      "event": "第四次大修",
+      "description": "清代雍正二年"
+    },
+    {
+      "year": "1866年",
+      "event": "第五次大修",
+      "description": "清代同治五年"
+    },
+    {
+      "year": "1933年",
+      "event": "梁思成考察",
+      "description": "中国营造学社发现并测绘"
+    },
+    {
+      "year": "1961年",
+      "event": "首批全国重点文物保护单位",
+      "description": "国务院公布"
+    }
+  ]
+}

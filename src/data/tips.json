@@ -1,0 +1,59 @@
+{
+  "global": {
+    "welcome": "欢迎来到应县木塔可视化平台",
+    "loading": "加载中，请稍候...",
+    "error": "出错了，请刷新重试"
+  },
+  "home": {
+    "title": "🏠 首页",
+    "mapTip": "点击地图上的图标进入古建筑详情页",
+    "chartTip": "图表展示古建筑朝代分布数据",
+    "highlightTip": "应县木塔核心数据一览"
+  },
+  "tower": {
+    "title": "🗼 应县木塔",
+    "structureBtn": "📐 结构分析 - 查看塔身构件详情",
+    "mechanicsBtn": "📊 力学分析 - 查看应力云图和抗震演示",
+    "decorationBtn": "🎨 装饰工艺 - 欣赏彩绘木雕艺术"
+  },
+  "structure": {
+    "title": "📐 结构分析",
+    "hoverTip": "🖱️ 鼠标悬停任意构件，查看简介",
+    "clickTip": "🔍 点击构件，进入拆解详情页",
+    "resetTip": "🔄 点击重置按钮恢复视角",
+    "parts": {
+      "pillar": "柱子：塔身主要承重构件",
+      "beam": "梁：连接柱子和斗拱",
+      "dougong": "斗拱：承重+减震核心构件",
+      "roof": "屋檐：遮风挡雨",
+      "railing": "栏杆：防护+装饰"
+    }
+  },
+  "mechanics": {
+    "title": "📊 力学分析",
+    "tabStatic": "静力分析 - 查看应力分布云图",
+    "tabEarthquake": "抗震演示 - 模拟地震响应",
+    "tabWind": "抗风演示 - 模拟风振响应",
+    "legendTip": "📖 图例说明：颜色越红，应力越高",
+    "playTip": "▶️ 点击播放按钮观看动画",
+    "pauseTip": "⏸️ 暂停动画",
+    "resetTip": "🔄 重置视角和材质",
+    "levelTip": "🎚️ 切换地震等级：多遇/罕遇"
+  },
+  "decoration": {
+    "title": "🎨 装饰工艺",
+    "tabTip": "点击上方Tab切换工艺类型",
+    "locateTip": "📍 定位到部件 - 相机飞至对应位置",
+    "splitTip": "🔧 拆解展示 - 部件分层旋转展示",
+    "materialTip": "🎨 切换材质 - 对比原始/修复后状态",
+    "resetTip": "🔄 重置视角"
+  },
+  "ai": {
+    "title": "🤖 古建筑AI助手",
+    "welcome": "您好！我是古建筑AI助手，请问有什么可以帮您？",
+    "placeholder": "问我关于古建筑的问题...",
+    "example1": "例如：应县木塔有多高？",
+    "example2": "例如：什么是斗拱？",
+    "limit": "我只能回答古建筑相关问题哦"
+  }
+}

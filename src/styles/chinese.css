@@ -1,0 +1,121 @@
+/* ============== 中国风全局样式 ============== */
+/* 全局字体设置 */
+* {
+  font-family: "汇文明朝体", "SimSun", serif;
+}
+
+/* 大标题字体设置 */
+h1, .page-title {
+  font-family: "汉仪雪君体简", "SimSun", serif !important;
+}
+/* 1. 水墨背景（全页面通用） */
+.chinese-bg {
+  background: url('https://img0.baidu.com/it/u=829809709,282425248&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500') no-repeat center fixed;
+  background-size: cover;
+  background-color: #fdf6e9; /* 宣纸底色 */
+  min-height: 100vh;
+  position: relative;
+}
+/* 水墨遮罩（保证文字清晰） */
+.chinese-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(253, 246, 233, 0.85);
+  z-index: -1;
+}
+
+/* 2. 祥云边框（按钮/卡片通用） */
+.xiangyun-border {
+  border: 2px solid #c49346; /* 鎏金边框 */
+  border-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23c49346" d="M12 22c-4.5 0-7.5-1.5-7.5-7.5 0-2.5 1-4 3-4.5 2-.5 3-1 3-4 0-2-1-3-3-3s-3 1-3 3m15 0c-2 0-3 1-3 3 0 3 1 3.5 3 4 2 .5 3 2 3 4.5 0 6-3 7.5-7.5 7.5"/></svg>') 2 round;
+  position: relative;
+}
+
+/* 3. 中国风按钮 */
+.chinese-btn {
+  background: #fdf6e9 !important;
+  color: #8b0000 !important; /* 朱砂红 */
+  border: 2px solid #c49346 !important;
+  border-radius: 0 !important;
+  font-family: "SimSun", serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+/* 按钮Hover动画（祥云发光） */
+.chinese-btn:hover {
+  background: #8b0000 !important;
+  color: #fff !important;
+  box-shadow: 0 0 10px #c49346;
+  transform: translateY(-2px);
+}
+
+/* 4. 页面切换动画（淡入） */
+.page-fade {
+  animation: chineseFade 0.6s ease forwards;
+}
+@keyframes chineseFade {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 5. 卡片Hover动画（上浮） */
+.chinese-card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(196, 147, 70, 0.3);
+}
+
+/* 6. 3D容器通用样式（核心：不变形、不溢出） */
+.chinese-3d-container {
+  width: 100% !important;
+  height: 600px !important; /* 固定高度，可自定义 */
+  position: relative !important;
+  overflow: hidden !important;
+  border: 3px solid #c49346;
+  border-radius: 8px;
+}
+.chinese-3d-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important; /* 保证3D场景不变形 */
+  display: block !important;
+}
+
+/* 7. 页面缩放容器 */
+.page-scale-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+/* 响应式缩放 */
+@media screen and (max-width: 1400px) {
+  .page-scale-container {
+    transform: scale(calc(min(100vw / 1400, 100vh / 900)));
+    transform-origin: top center;
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .page-scale-container {
+    transform: scale(calc(min(100vw / 1200, 100vh / 800)));
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .page-scale-container {
+    transform: scale(calc(min(100vw / 992, 100vh / 700)));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-scale-container {
+    transform: scale(calc(min(100vw / 768, 100vh / 600)));
+  }
+}

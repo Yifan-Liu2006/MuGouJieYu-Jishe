@@ -1,0 +1,224 @@
+{
+  "records": [
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 0.540,
+      "period": 1.853,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第一阶周期T1=1.853s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 0.580,
+      "period": 1.724,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第二阶周期T2=1.724s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 0.837,
+      "period": 1.195,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第三阶周期=1.195s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 0.840,
+      "period": 1.190,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第四阶周期=1.190s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 1.783,
+      "period": 0.561,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第五阶周期=0.561s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 1.845,
+      "period": 0.542,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第六阶周期=0.542s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 1.908,
+      "period": 0.524,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第七阶周期=0.524s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 2.294,
+      "period": 0.436,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第八阶周期=0.436s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 2.433,
+      "period": 0.411,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第九阶周期=0.411s"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "模态分析",
+      "maxDisplacement": null,
+      "frequency": 2.809,
+      "period": 0.356,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表1",
+      "note": "第十阶周期=0.356s"
+    },
+    {
+      "id": "site-condition",
+      "scenario": "抗震设防参数",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": 0.35,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表2",
+      "note": "场地特征周期=0.35s"
+    },
+    {
+      "id": "site-condition",
+      "scenario": "抗震设防参数",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表2",
+      "note": "抗震设防烈度=7度(0.15g)"
+    },
+    {
+      "id": "site-condition",
+      "scenario": "抗震设防参数",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表2",
+      "note": "设计地震分组=第一组"
+    },
+    {
+      "id": "site-condition",
+      "scenario": "抗震设防参数",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "05-地震易损性分析及隔震性能研究.pdf",
+      "page": "2",
+      "figureOrTable": "表2",
+      "note": "场地类别=Ⅱ类"
+    },
+    {
+      "id": "floor-2-visible",
+      "scenario": "EW随机地震位移响应",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "01-抗震性能分析.pdf",
+      "page": "74",
+      "figureOrTable": "图5-2",
+      "note": "二层明层东西方向位移响应结果"
+    },
+    {
+      "id": "floor-2-visible",
+      "scenario": "NS随机地震位移响应",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "01-抗震性能分析.pdf",
+      "page": "74",
+      "figureOrTable": "图5-3",
+      "note": "二层明层南北方向位移响应结果"
+    },
+    {
+      "id": "floor-5-visible",
+      "scenario": "EW随机地震可靠度",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "01-抗震性能分析.pdf",
+      "page": "83",
+      "figureOrTable": "图5-29",
+      "note": "极限层间位移角1/148时，动力可靠度=0.8704"
+    },
+    {
+      "id": "floor-5-visible",
+      "scenario": "NS随机地震可靠度",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "01-抗震性能分析.pdf",
+      "page": "83",
+      "figureOrTable": "图5-29",
+      "note": "极限层间位移角1/148时，动力可靠度=0.8809"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "确定性地震响应",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "01-抗震性能分析.pdf",
+      "page": "53-68",
+      "figureOrTable": "第4章",
+      "note": "确定性地震响应主分析章节"
+    },
+    {
+      "id": "overall-structure",
+      "scenario": "随机地震响应",
+      "maxDisplacement": null,
+      "frequency": null,
+      "period": null,
+      "sourceFile": "01-抗震性能分析.pdf",
+      "page": "71-83",
+      "figureOrTable": "第5章",
+      "note": "随机地震响应主分析章节"
+    }
+  ]
+}
